@@ -1,0 +1,152 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header
+{
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100%;
+    width: auto;
+}
+.upper_header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    
+}
+.linkuri
+{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+.link
+{
+    padding: 5px;
+   
+}
+.a 
+{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.logo
+{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9faf8;
+    padding: 4px;
+}
+.header_content
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+    margin-bottom: 100px;
+    
+}
+.header_content_text
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+    
+
+}
+.header_title
+{
+    font-size: 48px;
+    font-weight: extra_bold;
+    color: #f9faf8;
+}
+.header_description
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 300px;
+}
+button
+{
+    background-color: #3882f6;
+    color: whitesmoke ;
+    border-radius: 4px;
+    padding: 5px 10px;
+    flex-grow: 0;
+}
+
+a
+{
+   font-size: 18px;
+   color: #e5e7eb;
+   text-decoration: none;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_title
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 20px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.pictures
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: ;
+}
+.content_info
+{
+    padding: 10px;
+    width: 150px;
+}
+img
+{
+    border: blue solid;
+    border-radius: 10px;
+}
+.quote
+{
+    font-size: 36px ;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    margin: 100px 0;
+    padding: 100px;
+    
+}
+.banner
+{
+    background-color: #3882f6;
+    border-radius: 15px;
+justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    width: 800px;
+    color: #e5e7eb;
+}
+#banner_title
+{
+    font-weight: bold;
+    font-size: 20px;
+}
